@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 247, 255);
+    line-height: 1.2em;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+#easteregg {
+    color: rgb(0, 247, 255);
+    margin-top: 800px;
+}
+
+#easteregg:hover {
+    color: rgb(0, 0, 0);
+}
+
+main h2{
+    color: rgb(25, 0, 255);
+    line-height: .5em;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+ul li:hover {
+    font-size: 2em;
+    color: rgb(255, 0, 0);
+}
+
+footer p, #easteregg {
+    font-size: small;
+}
+
+a:hover {
+    background-color: rgb(255, 238, 0);
+}
