@@ -9,59 +9,45 @@
 
 body {
     height: 800px;
-    width: 1080;
+    width: 95%;
+    margin: auto;
 }
 
-/*navigation (test)*/
+/*navigation*/
 
 .box {
     text-align: center;
     width: 25%;
     height: 10%;
+    background-image: linear-gradient( 135deg, rgb(108, 192, 74) 0%, rgb(197, 26, 74) 17%,  rgb(197, 26, 74) 100%);
 }
 
 .box:hover {
     color: black;
 }
 
-#button_one {
-    background-image: linear-gradient( 135deg, rgb(108, 192, 74) 0%, rgb(197, 26, 74) 17%,  rgb(197, 26, 74) 100%);
-    float: left;
-
-}
-
-#button_two {
-    background-image: linear-gradient( 135deg, rgb(108, 192, 74) 0%, rgb(197, 26, 74) 17%,  rgb(197, 26, 74) 100%);
-}
-
-#button_three {
-    background-image: linear-gradient( 135deg, rgb(108, 192, 74) 0%, rgb(197, 26, 74) 17%,  rgb(197, 26, 74) 100%);
-    float: right;
-}
-
-#button_four {
-    background-image: linear-gradient( 135deg, rgb(108, 192, 74) 0%, rgb(197, 26, 74) 17%,  rgb(197, 26, 74) 100%);
-    float: right;
-}
-
 #navigation {
     display: flex;
-    justify-content: space-around;
 }
 
 h1 {
     font-size: 1.5em;
     text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1em;
+    text-align: center;
 }
 
 main h2{
-    color: rgb(197, 26, 74);
+    color: rgb(255, 255, 255);
     line-height: 1em;
     font-size: 4em;
     font-weight: 900;
     margin-bottom: .1em;
 }
-
 
 /*images*/
 
@@ -73,6 +59,8 @@ main h2{
     border-radius: 1% 20%;
     margin-left: auto;
     margin-right: auto;
+    width: 60%;
+    margin-top: 10px;
 }
 
 #pilogo {
@@ -84,6 +72,7 @@ main h2{
 #homepage-text {
     margin-left: 5%;
 }
+
 /*class tags*/
 
 .center {
@@ -110,6 +99,7 @@ footer {
 }
 
 /*easter egg*/
+
 footer p, #easteregg {
     font-size: small;
 }
@@ -124,14 +114,6 @@ footer p, #easteregg {
 }
 
 /*resource page*/
-
-header h2 {
-    color: rgb(197, 26, 74);
-    line-height: 1em;
-    font-size: 4em;
-    font-weight: 900;
-    margin-bottom: .1em;
-}
 
  .columns {
     display: flex;
