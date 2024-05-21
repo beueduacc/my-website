@@ -11,42 +11,46 @@
 <body>
     <header>
         <img src="images/pilogo.jpg" alt="the raspberry pi logo" title="Raspberry Pi Logo" class="center" id="pilogo">
-        <h1>My Raspberry Pi</h1>
+        <h1>Raspberry Pi Hardware</h1>
         <h2><a href="index.html">Home</a></h2>
     </header>
-    <nav id="navigation">
-        <div id="button_one" class="box"><a href="hardware.html">Hardware</a></div>
-        <div id="button_two" class="box"><a href="projects.html">Projects</a></div>
-        <div id="button_four" class="box"><a href="resources.html">Resources</a></div>
-        <div id="button_three" class="box"><a href="credits.html">Credits</a></div>
+    <nav class="navigation">
+        <div><a href="hardware.html" id="nav_one">Hardware</a></div>
+        <div><a href="gpio.html" id="nav_two">GPIO</a></div>
+        <div><a href="Emulation.html" id="nav_four">Emulation</a></div>
+        <div><a href="resources.html" id="nav_three">Resources</a></div>
     </nav>
     <main>
-        <img src="images/raspberrypi.jpg" alt="A Raspberry Pi 5 attached to a seven inch display."
-            title="A Raspberry Pi 5 attached to a seven inch display." id="piimage" class="center">
-        <div id="homepage-text">
-            <h2>What is a Raspberry Pi?</h2>
-            <p>
-                <strong>Raspberry Pi is a popular line of open design, modular, <a
-                        href="https://en.wikipedia.org/wiki/Single-board_computer" target="_blank">single-board computers</a>. While
-                    they
-                    aren&apos;t the most powerful computers in terms of performance, they have become popular with
-                    hobbyists
-                    as
-                    well as professionals in tech for their affordability, expandability, and wide variety of use
-                    cases.</strong>
-            </p>
-            <h3 class="main_text" id="paragraph">Some popular use cases for Raspberry Pi include...</h3>
-            <ul class="list">
-                <li>Small form factor workstations</li>
-                <li>Video game emulators</li>
-                <li>Media server hosts</li>
-                <li>Smart home controllers</li>
-                <li>and so much more</li>
-            </ul>
+        <!--rearrange to look less like homepage-->
+        <div class="hardware_content">
+            <!--p content will describe images (also get better images)-->
+            <img src="images/pizerotop.jpg" alt="A raspberry pi zero in a clear plastic case" title="Raspberry Pi Zero"
+                id="hwc_i1">
+            <p id="hwc_t1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum."</p>
+            <img src="images/pi5top.jpg" alt="A raspberry pi 5 in an aluminium case" title="A raspberry pi 5 in an aluminium case"
+                id="hwc_i2">
+            <p id="hwc_t2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum."</p>
+            <img src="images/missing.jpg" alt="replace"
+                title="replace" id="hwc_i3"><!--replace with picture of hardware computing project-->
+            <p id="hwc_t3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum."</p>
         </div>
         <footer>
-            <p id="top"><a href="#">Top of Page</a></p>
-            <p id="copyright">&copy; Brandon Ulassin 2024</p>
+            <div class="footer_content">
+                <p id="top"><a href="#">Top of Page</a></p>
+                <p id="copyright">&copy; Brandon Ulassin 2024</p>
+            </div>
         </footer>
     </main>
 </body>
