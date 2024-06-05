@@ -1,0 +1,5 @@
+On the resources.html page, the links seem to blend in with the other text and I didn’t know they were links until I hovered over it. You could possibly change the color to the same red color you use in other parts.
+I changed the font color of the links.
+The main nav bar is nicely designed but the ‘Home’ button isn’t styled the same as the rest of the nav. Maybe that's intentional but I’m not sure. Also, the nav buttons are kind of short so it can be hard to click them.
+I moved the Home button to the navbar
+
