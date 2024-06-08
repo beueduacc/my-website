@@ -1,0 +1,44 @@
+/*resource page*/
+
+.resources-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+ul a {
+    color: rgb(197, 26, 74);
+}
+
+#res_1 {
+    grid-row: 1/2;
+    grid-column: 2/7;
+}
+
+#res_2 {
+    grid-row: 1/2;
+    grid-column: 7/12;
+}
+
+#res_3 {
+    grid-row: 2/3;
+    grid-column: 2/7;
+}
+
+#res_4 {
+    grid-row: 2/3;
+    grid-column: 7/12;
+}
+
+#res_5 {
+    grid-row: 3/4;
+    grid-column: 2/7;
+}
+
+#res_6 {
+    grid-row: 3/4;
+    grid-column: 7/12;
+}
