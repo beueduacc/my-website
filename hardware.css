@@ -50,3 +50,18 @@ main .hwc_text {
     align-items: center;
     margin: 40px 20px;
 }
+
+
+@media screen and (max-width: 1235px) {
+    /*shifts to vertical layout for rwd*/
+    .hardware_content {
+        display: block;
+    }
+    /*centers images*/
+    .center2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+}

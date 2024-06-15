@@ -18,50 +18,54 @@
         <img src="images/pilogo.jpg" alt="the raspberry pi logo" title="Raspberry Pi Logo" class="center" id="pilogo">
         <h1>My Raspberry Pi</h1>
     </header>
+    <nav class="navigation">
+        <div><a href="index.html" id="nav_home">Home</a></div>
+        <div><a href="hardware.html" id="nav_one">Hardware</a></div>
+        <div><a href="gpio.html" id="nav_two">GPIO</a></div>
+        <div><a href="resources.html" id="nav_three">Resources</a></div>
+    </nav>
     <main>
-        <nav class="navigation">
-            <div><a href="index.html" id="nav_home">Home</a></div>
-            <div><a href="hardware.html" id="nav_one">Hardware</a></div>
-            <div><a href="gpio.html" id="nav_two">GPIO</a></div>
-            <div><a href="resources.html" id="nav_three">Resources</a></div>
-        </nav>
-        <main>
-            <div class="gpio_content">
-                <h1 id="gc_h1">General Purpose Input/Output</h1>
-                <p id="gc_t1">GPIO pins on a Raspberry Pi allow you to connect external devices and create custom electronic circuits. They're used for tasks like controlling LEDs, interfacing with sensors, driving motors, reading button inputs, and prototyping circuit designs. GPIO projects are a great way to learn coding and electronics at the same time.</p>
-                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/EHSIsu9TKuY?si=898xEW7-gTDBzUjI;autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <h1 id="gc_h2">Coding LED lights using GPIO</h1>
-                <p id="gc_t2">text</p>
-                <h1 id="gc_h3">Some more GPIO projects</h1>
-                <ul id="gc_link1">
-                    <li>link to project</li>
-                    <ul>
-                        <li>rem ipsum dolasdor sit amet, consectetur adiprem ipsum dolor sit amet, consectetur adiprem
-                            ipsum dolor sit amet, consectetur adip</li>
-                    </ul>
+        <div class="gpio_content">
+            <h1 id="gc_h1">General Purpose Input/Output</h1>
+            <p id="gc_t1">GPIO pins on a Raspberry Pi allow you to connect external devices and create custom electronic
+                circuits. They're used for tasks like controlling LEDs, interfacing with sensors, driving motors,
+                reading button inputs, and prototyping circuit designs. GPIO projects are a great way to learn coding
+                and electronics at the same time.</p>
+            <iframe id="video" width="560" height="315"
+                src="https://www.youtube.com/embed/EHSIsu9TKuY?si=898xEW7-gTDBzUjI;autoplay=1&mute=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h1 id="gc_h2">Coding LED lights using GPIO</h1>
+            <p id="gc_t2">Writting code to control a few LEDs may not seem like much, but this is considered the 'Hello World' of GPIO coding. This project can be completed with absolutely no experience coding, or working with electronics and is a great introduction to both.</p>
+            <h1 id="gc_h3">GPIO Resources</h1>
+            <ul id="gc_link1">
+                <li><a href="https://tutorials-raspberrypi.com/learn-how-to-program-on-the-raspberry-pi-part-1-introduction/" target="blank">Learn how to Program on the Raspberry Pi</a></li>
+                <ul>
+                    <li>This guide will walk you through the software setup, hardware build, and coding for a simple LED project.</li>
                 </ul>
-                <ul id="gc_link2">
-                    <li>link to project</li>
-                    <ul>
-                        <li>rem ipsum dolor sit amet, consectdfetur adiprem ipsum dolor sit amet, consectetur adiprem
-                            ipsum dolor sit amet, consectetur adip</li>
-                    </ul>
+            </ul>
+            <ul id="gc_link2">
+                <li><a href="https://scratch.mit.edu/about" target="blank">Scratch</a></li>
+                <ul>
+                    <li>This free software is a great tool designed to teach coding at an entry level, and works great for controlling GPIO</li>
                 </ul>
-                <ul id="gc_link3">
-                    <li>link to project</li>
-                    <ul>
-                        <li>rem ipsum dolor sit amet, consectetur adiprem ipsum ghjdolor sit amet, consectetur adiprem
-                            ipsum dolor sit amet, consectetur adip</li>
-                    </ul>
+            </ul>
+            <ul id="gc_link3">
+                <li><a href="https://www.makeuseof.com/tag/raspberry-pi-commands-cheat-sheet/" target="blank">Pi Commands Cheat Sheet</a></li>
+                <ul>
+                    <li>This guide will help you continue your coding journey by learning GPIO specific commands to help you design your own projects
+                    </li>
                 </ul>
+            </ul>
+        </div>
+        <footer>
+            <div class="footer_content">
+                <p id="top"><a href="#">Top of Page</a></p>
+                <p id="copyright">&copy; Brandon Ulassin 2024</p>
             </div>
-            <footer>
-                <div class="footer_content">
-                    <p id="top"><a href="#">Top of Page</a></p>
-                    <p id="copyright">&copy; Brandon Ulassin 2024</p>
-                </div>
-            </footer>
-        </main>
+        </footer>
+    </main>
 </body>
 
 </html>

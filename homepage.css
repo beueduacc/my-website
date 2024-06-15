@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px auto 0px;
+    margin: 20px 8px;
 }
 
 #hc_i1 {
@@ -38,5 +38,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px auto 0px;
+    margin: 20px 8px;
+}
+
+/*changes to vertical layout for rwd*/
+@media screen and (max-width: 1235px) {
+    .home_content {
+        display: block;
+    }
 }

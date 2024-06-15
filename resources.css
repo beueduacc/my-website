@@ -42,3 +42,10 @@ ul a {
     grid-row: 3/4;
     grid-column: 7/12;
 }
+
+/*shifts to vertical layout for rwd*/
+@media screen and (max-width: 1200px) {
+    .resources-content {
+        display: block;
+    }
+}
